@@ -1,0 +1,35 @@
+{
+  "name": "n-ahj-hw.-8_sse-ws_chat_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-naraikin/n-ahj-hw.-8_sse-ws_chat_backend.git"
+  },
+  "author": "a-naraikin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-naraikin/n-ahj-hw.-8_sse-ws_chat_backend/issues"
+  },
+  "homepage": "https://github.com/a-naraikin/n-ahj-hw.-8_sse-ws_chat_backend#readme",
+  "dependencies": {
+    "forever": "^3.0.4",
+    "http": "0.0.1-security",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0",
+    "koa-router": "^10.1.1",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2",
+    "ws": "^8.3.0"
+  }
+}
